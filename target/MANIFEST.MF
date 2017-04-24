@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: CiTestTest
+Bundle-Name: CiTestTest
+Bundle-Version: 1.0.0
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Fragment-Host: CITest;bundle-version="1.0.0"
+
