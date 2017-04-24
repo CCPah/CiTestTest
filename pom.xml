@@ -6,6 +6,6 @@
   	<groupId>CITest.PARENT</groupId>
   	<artifactId>CITest</artifactId>
   	<version>1.0.0</version>
-  	<relativePath>../CITest/mvn-parent</relativePath>
+  	<relativePath>../mvn-parent</relativePath>
   </parent>
 </project>
