@@ -8,11 +8,9 @@
   	<version>1.0.0</version>
   	<relativePath>../mvn-parent</relativePath>
   </parent>
-	<plugin>
-		<configuration>
-			<reportsDirectory>
-				${project.build.directory}/shippable/testreports
-			</reportsDirectory>
-		</configuration>
-	</plugin>
+	<configuration>
+		<reportsDirectory>
+		${project.build.directory}/shippable/testreports
+		</reportsDirectory>
+	</configuration>
 </project>
