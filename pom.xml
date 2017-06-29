@@ -11,9 +11,9 @@
 	<build>
 	<plugins>
 	<plugin>
-	<groupId>org.eclipse.tycho</groupId>
-    <artifactId>target-platform-configuration</artifactId>
-    <version>${tycho.version}</version>
+	<groupId>CITest</groupId>
+    <artifactId>CiTestTest</artifactId>
+    <version>1.0.0</version>
 	<configuration>
 			<reportsDirectory>${project.build.directory}/shippable/testreports</reportsDirectory>
 		</configuration>
