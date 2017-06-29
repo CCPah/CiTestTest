@@ -8,20 +8,7 @@
   	<version>1.0.0</version>
   	<relativePath>../mvn-parent</relativePath>
   </parent>
-	<profiles>
-                <profile>
-                        <build>
-                                <plugins>
-                                        <plugin>
-                                                <groupId>org.eclipse.tycho</groupId>
-                                                <artifactId>tycho-surefire-plugin</artifactId>
-                                                <version>${tychoVersion}</version>
-                                                <configuration>
-                                                        <reportsDirectory>${project.build.directory}/shippable/testreports</reportsDirectory>
-                                                </configuration>
-                                        </plugin>
-                                </plugins>
-                        </build>
-                </profile>
-        </profiles>
+	<configuration>
+    <reportsDirectory>${project.build.directory}/shippable/testreports</reportsDirectory>
+  </configuration>
 </project>
