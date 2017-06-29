@@ -1,10 +1,6 @@
 -------------------------------------------------------------------------------
 Test set: SampleTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in SampleTest
-test1(SampleTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError: Just a Test
-	at org.junit.Assert.fail(Assert.java:88)
-	at SampleTest.test1(SampleTest.java:9)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in SampleTest
+test1(SampleTest)  Time elapsed: 0 sec
 test2(SampleTest)  Time elapsed: 0 sec
